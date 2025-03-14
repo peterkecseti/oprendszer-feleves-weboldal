@@ -17,9 +17,10 @@ function Home() {
         return () => timers.forEach(timer => clearTimeout(timer));
     }, []);
 
+
     return (
         <>
-            <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white p-8">
+            <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white p-8 pl-24">
                 <h1 className="text-4xl font-bold mb-4">Linux fájlszerver</h1>
                 <p className="text-lg text-gray-300 max-w-2xl text-center pb-4">
                     Biztonságos és gyors fájltárolás vállalkozásoknak és magánszemélyeknek
