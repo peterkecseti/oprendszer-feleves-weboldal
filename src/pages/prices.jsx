@@ -12,7 +12,7 @@ const Prices = () => {
     }, []);
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-8 pl-24">
             <h1 className="text-3xl font-bold mb-4">Áraink</h1>
             <p className="text-gray-400 mb-8 text-center max-w-lg">
                 Válaszd ki az igényeidnek megfelelő csomagot
